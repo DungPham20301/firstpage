@@ -1,0 +1,114 @@
+
+/*=== Begin Tool Panel ====*/
+
+.tool-panel-page {
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    z-index: 999999;
+}
+.tool-panel-pag .bzotech-buy{
+    max-width: 89px;
+    max-height: 140px;
+}
+.tool-panel-page .e-con>.e-con-inner{
+    padding:0!important;
+}
+.tool-panel-page .bzotech-buy .buy-btn {
+    margin-bottom: 5px;
+}
+.tool-panel-page .bzotech-buy .buy-btn a {
+    display: flex;
+    background-color: #2a5db8;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 13px;
+    transition: .2s;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    line-height: 20px;
+}
+.tool-panel-page .bzotech-buy .buy-button a {
+    background-color: #dd2400;
+    background-position: 13px 7px;
+}
+.tool-panel-page a img{
+    width: 30px;
+    max-height:30px
+}
+.tool-panel-page .bzotech-buy .buy-btn a:hover {
+    background-color: #6327eb;
+}
+.dm-button {
+    position: absolute;
+    background-color: #dd2400;
+    border-radius: 3px 0 0 3px;
+    color: #fff;
+    top: 247px;
+    left: -65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 5px;
+    z-index: 9999;
+    font-size: 12px;
+    width: 65px;
+    height: 60px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    line-height: 15px;
+}
+#widget_indexdm {
+    background: #fff;
+    z-index: 10000;
+    width: 380px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -380px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-align: center;
+}
+.tool-panel-page {
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    z-index: 999999;
+}
+.dm-button.dm-support {
+    top: 310px;
+    background-position: center -43px;
+    background: #2a5db8;
+}
+.dm-button.dm-open{
+    top: 184px;
+    background-position: center -43px;
+    background: #66cc33;
+}
+.dm-button.dm-open i{
+        font-size: 20px;
+    margin-bottom: 4px;
+}
+.dm-button span {
+    display: block;
+}
+.dm-button:hover, .dm-button.dm-support:hover {
+    background: #6327eb;
+}
+.dm-button:focus, .dm-button:hover {
+    color: #fff;
+}
+.dm-button:hover, .dm-button.dm-support:hover {
+    background: #6327eb;
+}
+@media(max-width: 767px){
+	#widget_indexdm{
+    	display:none;
+    }
+}
+/*=== End Tool Panel ====*/

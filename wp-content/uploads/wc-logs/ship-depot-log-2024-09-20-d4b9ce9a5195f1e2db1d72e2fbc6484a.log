@@ -1,0 +1,18 @@
+2024-09-20T03:45:46+00:00 DEBUG 
+[CheckData][sd_change_calculated_total] total: 3633
+
+2024-09-20T03:45:46+00:00 DEBUG 
+[CheckData][sd_change_calculated_total] total: 3633
+
+2024-09-20T03:45:46+00:00 DEBUG 
+[CheckData][sd_change_calculated_total] total aft: 3633
+
+2024-09-20T03:45:46+00:00 DEBUG 
+[CheckData][sd_change_calculated_total] total aft: 3633
+
+2024-09-20T03:47:21+00:00 DEBUG 
+[sd_add_meta_boxes] $post_type: product
+
+2024-09-20T03:47:21+00:00 DEBUG 
+[sd_add_meta_boxes] $screen: shop_order
+

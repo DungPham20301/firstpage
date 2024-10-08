@@ -1,0 +1,154 @@
+
+/*Begin Button elementor*/
+.button-wrap-global{
+    display: inline-block;
+}
+.button-wrap-global .button-inner .icon-button-el , 
+.button-wrap-global .button-inner .text-button{
+    vertical-align: middle;
+}
+.button-wrap-global .icon-image-btn{
+    position: relative;
+    display: inline-block;
+}
+.button-wrap-global .icon-image-btn .icon_image_hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.button-wrap-global .button-inner:hover .icon-image-btn .icon_image_hover{
+    opacity: 1;
+}
+.button-wrap-global .button-inner:hover .icon-image-btn>img{
+    opacity: 0;
+}
+/*-------------------------------*/
+
+/*End Button elementor*/
+.elbzotech-bt-global-default{
+    border: 1px solid var(--bzo-main-color);
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding: 11px 25px;
+    font-size: 16px;
+    line-height: 24px!important;
+    display: flex;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    font-family: var(--bzo-body_typo-font-family);
+    overflow: hidden;
+    transition: .3s;
+    background: var(--bzo-main-color);
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    gap: 5px;
+}
+.elbzotech-bt-global-default:hover, 
+.elbzotech-bt-global-default:focus
+{
+    color: var(--bzo-main-color);
+    background: #fff;
+}
+@media(max-width: 767px){
+    .elbzotech-bt-global-default{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+/*==== btn style 2====*/
+.elbzotech-bt-global-style2{
+    border: none;
+    color: var(--bzo-main-color);
+    font-weight: 700;
+    padding: 14px 25px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 0px;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    font-family: var(--bzo-body_typo-font-family);
+    overflow: hidden;
+    transition: .3s;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+}
+.elbzotech-bt-global-style2:focus, 
+.elbzotech-bt-global-style2:hover{
+    color:#fff;
+    background-color:var(--bzo-main-color);
+
+}
+@media(max-width: 767px){
+    .elbzotech-bt-global-style2{
+        padding: 10px 20px;
+    }
+}
+
+
+/*==== btn style 3====*/
+.elbzotech-bt-global-style3{
+    color: var(--bzo-title_typo-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 0px;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    text-transform: capitalize;
+}
+.elbzotech-bt-global-style3 .text-button{
+    border-bottom: 1px solid var(--bzo-title_typo-color);
+    transition: all 0.3s ease-out 0s;
+}
+.elbzotech-bt-global-style3 .icon-button-el{
+    font-size: 20px;
+}
+.elbzotech-bt-global-style3:hover .text-button{
+    border-color: var(--bzo-main-color);
+}
+.elbzotech-bt-global-style3:focus, 
+.elbzotech-bt-global-style3:hover{
+    color:var(--bzo-main-color);
+}
+
+/*==== btn style 4====*/
+.elbzotech-bt-global-style4{
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 0px;
+    position: relative;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-transform: capitalize;
+    font-family: var(--bzo-title_typo-font-family);
+    background-color: var(--bzo-main-color);
+    flex-direction: row-reverse;
+    transition: .3s;
+}
+.elbzotech-bt-global-style4:hover{
+/*    background-color: var(--bzo-main-color-mix-black);*/
+   background-color: var(--bzo-main-color2);
+    color: #fff;
+}
+@media(max-width: 767px){
+    .elbzotech-bt-global-style4{
+        padding: 8px 15px;
+    }
+}
